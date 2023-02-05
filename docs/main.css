@@ -1,0 +1,57 @@
+.text {
+    font-family: "Lucida Console", monospace;
+    color: rgb(37, 36, 35);
+}
+
+.title-wrapper {
+    background-color: rgb(248, 235, 220);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.link {
+    padding-left: 30px;
+    display: inline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(95, 91, 89);
+}
+
+.link-wrapper {
+    padding-top: 15px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pack-art {
+    width: 250px;
+    height: 250px;
+    transition: transform .3s;
+}
+
+.pack-art:hover {
+    transform: scale(1.04);
+}
+
+.caption {
+    font-size: 15;
+}
