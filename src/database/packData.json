@@ -1,0 +1,34 @@
+{
+    "midipack1":{
+        "name": "MIDI Pack 1",
+        "id": "midipack1",
+        "desc": "This is the first MIDI pack. Gain access to a vast selection of MIDI files, easy to use in any VST!",
+        "desc2": "This pack contains 13 MIDI files:",
+        "contentList":[
+            "5 Piano",
+            "3 Pluck",
+            "4 Bassline"
+        ],
+        "img": "/MidiPack1.png",
+        "tags": [
+            "midi",
+            "free"
+        ]
+    },
+    "ambiancepack1":{
+        "name": "Ambiance Pack 1",
+        "id": "ambiancepack1",
+        "desc": "This is the first Ambiance pack. Gain access to a vast selection of Ambiance files, easy to use in any VST!",
+        "desc2": "This pack contains 13 Ambiance files:",
+        "contentList":[
+            "5 Piano",
+            "3 Pluck",
+            "4 Bassline"
+        ],
+        "img": "/ambiancepack.png",
+        "tags": [
+            "free",
+            "sfx"
+        ]
+    }
+}
