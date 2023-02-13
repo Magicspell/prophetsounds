@@ -21,6 +21,23 @@ export default function Root() {
                 </span>
             </div>
             <Outlet />
+            <div className="footer footer-grid">
+                <div className="grid-column text small">
+                    <p>© 2023 Prophet Sounds</p>
+                </div>
+                <div className="grid-column text small">
+                    <p>Socials:</p>
+                    <p>
+                        <a href="https://twitter.com/ProphetSounds" className="footer-link">Twitter </a>
+                        <a href="https://www.instagram.com/prophet_sounds" className="footer-link">Instagram </a>
+                        <a href="https://www.reddit.com/user/ProphetSounds" className="footer-link">Reddit </a>
+                    </p>
+                </div>
+
+                <div className="grid-column text small">
+                    <p>About Prophet Sounds</p>
+                </div>
+            </div>
         </div>
     )
 }
