@@ -1,0 +1,12 @@
+{
+    "0":[
+        "free",
+        "midi",
+        "drum"
+    ],
+    "names":{
+        "free":"Free Packs",
+        "midi": "MIDI Packs",
+        "drum": "Drum Kits"
+    }
+}
