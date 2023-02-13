@@ -24,7 +24,7 @@ export default function PackList() {
                     <div className="grid-container">{
                             packIdList.map(function(packId, i){
                                 return (
-                                    <Link className="text" to={"./packs/" + packId}>
+                                    <Link className="text" to={"/packs/" + packId}>
                                         <div className="grid-item">
                                             <img className="pack-art" src={packData[packId]["img"]}></img>
                                             <p className="caption">{packData[packId]["name"]}</p>
