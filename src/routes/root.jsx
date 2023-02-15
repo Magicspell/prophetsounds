@@ -22,10 +22,10 @@ export default function Root() {
             </div>
             <Outlet />
             <div className="footer footer-grid">
-                <div className="grid-column text small">
+                <div className="text small" style={{lineHeight:3}}>
                     <p>© 2023 Prophet Sounds</p>
                 </div>
-                <div className="grid-column text small">
+                <div className="text small">
                     <p>Socials:</p>
                     <p>
                         <a href="https://twitter.com/ProphetSounds" className="footer-link">Twitter </a>
@@ -33,8 +33,7 @@ export default function Root() {
                         <a href="https://www.reddit.com/user/ProphetSounds" className="footer-link">Reddit </a>
                     </p>
                 </div>
-
-                <div className="grid-column text small">
+                <div className="text small" style={{lineHeight:3}}>
                     <p>About Prophet Sounds</p>
                 </div>
             </div>
