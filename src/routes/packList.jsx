@@ -2,6 +2,7 @@ import"../main.css"
 import { Link, redirect, useLoaderData } from "react-router-dom"
 import packData from "../database/packData.json"
 import tags from "../database/tags.json"
+import Pack from "../components/pack"
 
 export default function PackList() {
     const tag = useLoaderData();
@@ -24,12 +25,7 @@ export default function PackList() {
                     <div className="grid-container">{
                             packIdList.map(function(packId, i){
                                 return (
-                                    <Link className="text" to={"/packs/" + packId}>
-                                        <div className="grid-item">
-                                            <img className="pack-art" src={packData[packId]["img"]}></img>
-                                            <p className="caption">{packData[packId]["name"]}</p>
-                                        </div>
-                                    </Link>
+                                    <Pack packId={packId}></Pack>
                                 );
                         })}
                     </div>
