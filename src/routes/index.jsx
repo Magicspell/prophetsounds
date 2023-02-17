@@ -25,8 +25,6 @@ export default function Index() {
                     </div>
                 </Link>
             </div>
-
-            <footer></footer>
         </div>
     )
 }

@@ -6,11 +6,10 @@ import {
 } from "react-router-dom";
 import Root from './routes/root';
 import ErrorPage from './routes/errorPage';
-import TestPage from './routes/testPage';
-import PageNumber from './routes/pageNumber';
 import Index from './routes';
 import PackPage from './routes/packPage';
 import PackList from './routes/packList';
+import ContactPage from './routes/contactPage';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +32,10 @@ const router = createBrowserRouter([
                 return params.tagId;
             }
         },
+        {
+            path: "contact",
+            element: <ContactPage />
+        }
     ]
   }
 ])

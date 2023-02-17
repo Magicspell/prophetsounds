@@ -34,7 +34,7 @@ export default function Root() {
                     </p>
                 </div>
                 <div className="text small" style={{lineHeight:3}}>
-                    <p>About Prophet Sounds</p>
+                    <p><Link className="footer-link" to="/contact">Contact Us</Link></p>
                 </div>
             </div>
         </div>
