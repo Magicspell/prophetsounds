@@ -4,8 +4,12 @@
     text-decoration: none;
 }
 
+.small {
+    font-size: 13px;
+}
+
 .list {
-    padding-top: 8px;
+    padding-top: 20px;
     padding-left: 45px;
 }
 
@@ -43,7 +47,7 @@
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    gap: 40px
+    gap: 40px;
 }
 
 .grid-item {
@@ -104,6 +108,35 @@
 
 .error-wrapper {
     text-align: center;
+}
+
+.error-message {
+    top: 200px;
+    position: relative;
+}
+
+.footer {
+    background-color: rgb(248, 235, 220);
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 6px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(47, 121, 139);
+}
+.footer-link:hover {
+    color: rgb(19, 171, 209);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .error-message {

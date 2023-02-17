@@ -2,11 +2,17 @@
     "0":[
         "free",
         "midi",
-        "drum"
+        "drum",
+        "oneshot",
+        "loop",
+        "sfx"
     ],
     "names":{
         "free":"Free Packs",
         "midi": "MIDI Packs",
-        "drum": "Drum Kits"
+        "drum": "Drum Kits",
+        "oneshot": "One Shots",
+        "loop": "Loops",
+        "sfx": "Special Effects"
     }
 }
