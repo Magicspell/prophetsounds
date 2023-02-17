@@ -5,7 +5,8 @@
         "drum",
         "oneshot",
         "loop",
-        "sfx"
+        "sfx",
+        "all"
     ],
     "names":{
         "free":"Free Packs",
@@ -13,6 +14,7 @@
         "drum": "Drum Kits",
         "oneshot": "One Shots",
         "loop": "Loops",
-        "sfx": "Special Effects"
+        "sfx": "Special Effects",
+        "all": "All Packs"
     }
 }

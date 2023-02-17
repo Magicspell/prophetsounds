@@ -12,6 +12,7 @@
         "price":0.00,
         "img": "/MidiPack1.png",
         "tags": [
+            "all",
             "midi",
             "free"
         ]
@@ -29,6 +30,7 @@
         "price":0.00,
         "img": "/ambiancepack.png",
         "tags": [
+            "all",
             "free",
             "sfx"
         ]
