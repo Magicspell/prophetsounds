@@ -9,6 +9,7 @@
             "3 Pluck",
             "4 Bassline"
         ],
+        "price":0.00,
         "img": "/MidiPack1.png",
         "tags": [
             "midi",
@@ -25,6 +26,7 @@
             "3 Pluck",
             "4 Bassline"
         ],
+        "price":0.00,
         "img": "/ambiancepack.png",
         "tags": [
             "free",
