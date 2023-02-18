@@ -2,12 +2,10 @@
     "midipack1":{
         "name": "MIDI Pack 1",
         "id": "midipack1",
-        "desc": "This is the first MIDI pack. Gain access to a vast selection of MIDI files, easy to use in any VST!",
-        "desc2": "This pack contains 13 MIDI files:",
+        "desc": "This is the first MIDI pack. Gain access to a vast selection of MIDI files, usable in any VST!",
+        "desc2": "This pack contains 11 MIDI files:",
         "contentList":[
-            "5 Piano",
-            "3 Pluck",
-            "4 Bassline"
+            "11 Piano"
         ],
         "price":0.00,
         "img": "/MidiPack1.png",
@@ -21,12 +19,9 @@
     "ambiancepack1":{
         "name": "Ambiance Pack 1",
         "id": "ambiancepack1",
-        "desc": "This is the first Ambiance pack. Gain access to a vast selection of Ambiance files, easy to use in any VST!",
-        "desc2": "This pack contains 13 Ambiance files:",
+        "desc": "Coming Soon",
+        "desc2": "Coming Soon",
         "contentList":[
-            "5 Piano",
-            "3 Pluck",
-            "4 Bassline"
         ],
         "price":0.00,
         "img": "/ambiancepack.png",
@@ -35,6 +30,22 @@
             "all",
             "free",
             "sfx"
+        ]
+    },
+    "boxopercs":{
+        "name": "Box O' Percs Pack",
+        "id": "boxopercs",
+        "desc": "Coming Soon",
+        "desc2": "Coming Soon",
+        "contentList":[
+        ],
+        "price":0.00,
+        "img": "/BoxOPercsPack.png",
+        "purchaseLink": "",
+        "tags": [
+            "all",
+            "free",
+            "drum"
         ]
     }
 }
