@@ -24,7 +24,7 @@ export default function PackPage(){
                             })}
                         </div>
                     </div>
-                    <a href="https://drive.google.com/drive/folders/1anY9lPTuCiwwo0h3CTJrl0Lk712Qxo7z?usp=sharing" className="purchase-button">Download</a>
+                    <a href={data["purchaseLink"]} className="purchase-button">Download</a>
                 </div>
             </div>
         );
