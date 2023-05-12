@@ -13,7 +13,7 @@ export default function Root() {
             <div className="link-wrapper">
                 <span>
                     <Link className="text link" to="tag/all">All</Link>
-                    {/* <Link className="text link" to="tag/oneshot">One shots</Link> */}
+                    <Link className="text link" to="tag/oneshot">One shots</Link>
                     {/* <Link className="text link" to="tag/loop">Loops</Link> */}
                     <Link className="text link" to="tag/drum">Drum kits</Link>
                     <Link className="text link" to="tag/free">Free sounds</Link>
