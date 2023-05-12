@@ -1,13 +1,13 @@
 {
-    "midipack1":{
+    "midipack1": {
         "name": "MIDI Pack 1",
         "id": "midipack1",
         "desc": "This is the first MIDI pack. Gain access to a vast selection of MIDI files, usable in any VST!",
         "desc2": "This pack contains 11 MIDI files:",
-        "contentList":[
+        "contentList": [
             "11 Piano"
         ],
-        "price":0.00,
+        "price": 0.00,
         "img": "/MidiPack1.png",
         "purchaseLink": "https://shorturl.at/13469",
         "tags": [
@@ -16,14 +16,13 @@
             "free"
         ]
     },
-    "ambiancepack1":{
+    "ambiancepack1": {
         "name": "Ambiance Pack 1",
         "id": "ambiancepack1",
         "desc": "Coming Soon",
         "desc2": "Coming Soon",
-        "contentList":[
-        ],
-        "price":0.00,
+        "contentList": [],
+        "price": 0.00,
         "img": "/ambiancepack.png",
         "purchaseLink": "",
         "tags": [
@@ -32,20 +31,34 @@
             "sfx"
         ]
     },
-    "boxopercs":{
+    "boxopercs": {
         "name": "Box O' Percs Pack",
         "id": "boxopercs",
         "desc": "Coming Soon",
         "desc2": "Coming Soon",
-        "contentList":[
-        ],
-        "price":0.00,
+        "contentList": [],
+        "price": 0.00,
         "img": "/BoxOPercsPack.png",
         "purchaseLink": "",
         "tags": [
             "all",
             "free",
             "drum"
+        ]
+    },
+    "plucksandbasses": {
+        "name": "Plucks&Basses Pack",
+        "id": "plucksandbasses",
+        "desc": "Coming Soon",
+        "desc2": "Coming Soon",
+        "contentList": [],
+        "price": 0.00,
+        "img": "/Plucks&Basses.png",
+        "purchaseLink": "",
+        "tags": [
+            "all",
+            "free",
+            "oneshot"
         ]
     }
 }
