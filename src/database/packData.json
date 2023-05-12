@@ -49,12 +49,15 @@
     "plucksandbasses": {
         "name": "Plucks&Basses Pack",
         "id": "plucksandbasses",
-        "desc": "Coming Soon",
-        "desc2": "Coming Soon",
-        "contentList": [],
+        "desc": "This pack includes 21 pluck sounds and 21 bass versions of those plucks, for a total of 42 sounds!",
+        "desc2": "All sounds are original and created by Prophet Sounds, and are royalty-free and usable in any DAW. Included in this free pack:",
+        "contentList": [
+            "21 Pluck",
+            "21 Bass"
+        ],
         "price": 0.00,
         "img": "/Plucks&Basses.png",
-        "purchaseLink": "",
+        "purchaseLink": "https://shorturl.at/cdiFH",
         "tags": [
             "all",
             "free",
